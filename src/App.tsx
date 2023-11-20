@@ -1,7 +1,12 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="px-[150px]">
+      <Navbar />
+      <Hero />
+      {/* <p id="projects" className="h-screen">hey</p> */}
     </div>
   );
 };
