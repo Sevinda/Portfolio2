@@ -1,3 +1,5 @@
+// import Spline from "@splinetool/react-spline";
+
 const Hero = () => {
   return (
     <div className="flex flex-col h-[calc(100vh-70px)] gap-[20px]">
